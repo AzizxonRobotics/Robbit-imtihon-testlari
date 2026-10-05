@@ -1,0 +1,1007 @@
+{
+  "id": 1,
+  "name": "1-bo'lim: JavaScript asoslari",
+  "active": true,
+  "questions": [
+    {
+      "q": "JavaScript nima?",
+      "o": [
+        "Stil berish tili",
+        "Dasturlash tili",
+        "Ma'lumotlar bazasi",
+        "Operatsion tizim"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Konsolga ma'lumot chiqarish uchun qaysi buyruq ishlatiladi?",
+      "o": [
+        "print()",
+        "echo()",
+        "console.log()",
+        "write.log()"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Brauzerda Developer Tools (konsol) odatda qaysi tugma bilan ochiladi?",
+      "o": [
+        "F1",
+        "F12",
+        "F5",
+        "F8"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Konsolga xato ko'rinishida xabar chiqaruvchi metod qaysi?",
+      "o": [
+        "console.error()",
+        "console.bug()",
+        "console.fail()",
+        "console.stop()"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Konsolga ogohlantirish chiqaruvchi metod qaysi?",
+      "o": [
+        "console.alert()",
+        "console.info()",
+        "console.warn()",
+        "console.notice()"
+      ],
+      "a": 2
+    },
+    {
+      "q": "JavaScript'da bir qatorli izoh qanday yoziladi?",
+      "o": [
+        "<!-- izoh -->",
+        "# izoh",
+        "/* izoh */",
+        "// izoh"
+      ],
+      "a": 3
+    },
+    {
+      "q": "Ko'p qatorli izoh qaysi?",
+      "o": [
+        "/* izoh */",
+        "// izoh //",
+        "<!-- izoh -->",
+        "** izoh **"
+      ],
+      "a": 0
+    },
+    {
+      "q": "JavaScript kodini HTML ichiga yozish uchun qaysi teg ishlatiladi?",
+      "o": [
+        "<js>",
+        "<javascript>",
+        "<script>",
+        "<code>"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Tashqi JS faylni ulashda qaysi atribut ishlatiladi?",
+      "o": [
+        "href",
+        "src",
+        "link",
+        "file"
+      ],
+      "a": 1
+    },
+    {
+      "q": "console.table() nima qiladi?",
+      "o": [
+        "Jadval yaratadi",
+        "Ma'lumotni jadval ko'rinishida chiqaradi",
+        "Konsolni tozalaydi",
+        "Faylni saqlaydi"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Konsolni tozalash uchun qaysi metod ishlatiladi?",
+      "o": [
+        "console.delete()",
+        "console.empty()",
+        "console.remove()",
+        "console.clear()"
+      ],
+      "a": 3
+    },
+    {
+      "q": "alert('Salom') nima qiladi?",
+      "o": [
+        "Konsolga yozadi",
+        "Oynada xabar ko'rsatadi",
+        "Sahifani yopadi",
+        "Xato beradi"
+      ],
+      "a": 1
+    },
+    {
+      "q": "prompt() nima uchun ishlatiladi?",
+      "o": [
+        "Foydalanuvchidan ma'lumot so'rash",
+        "Sahifani yangilash",
+        "Rasm yuklash",
+        "Xatoni topish"
+      ],
+      "a": 0
+    },
+    {
+      "q": "JavaScript katta-kichik harflarni farqlaydimi?",
+      "o": [
+        "Yo'q",
+        "Faqat o'zgaruvchilarda",
+        "Ha, farqlaydi",
+        "Faqat funksiyalarda"
+      ],
+      "a": 2
+    },
+    {
+      "q": "JavaScript tilini kim yaratgan?",
+      "o": [
+        "Brendan Eich",
+        "Linus Torvalds",
+        "Bill Gates",
+        "Guido van Rossum"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Node.js nima?",
+      "o": [
+        "CSS kutubxonasi",
+        "JS'ni brauzerdan tashqarida ishlatish muhiti",
+        "Ma'lumotlar bazasi",
+        "Matn muharriri"
+      ],
+      "a": 1
+    },
+    {
+      "q": "console.log('A', 'B') qanday natija chiqaradi?",
+      "o": [
+        "AB",
+        "A,B",
+        "A B",
+        "'A''B'"
+      ],
+      "a": 2
+    },
+    {
+      "q": "console.log(2 + 3) natijasi qanday?",
+      "o": [
+        "23",
+        "5",
+        "'5'",
+        "Xato"
+      ],
+      "a": 1
+    },
+    {
+      "q": "console.log('2' + '3') natijasi qanday?",
+      "o": [
+        "5",
+        "Xato",
+        "NaN",
+        "23"
+      ],
+      "a": 3
+    },
+    {
+      "q": "JavaScript buyruqlari oxirida odatda nima qo'yiladi?",
+      "o": [
+        ":",
+        ",",
+        "; (nuqta-vergul)",
+        "."
+      ],
+      "a": 2
+    },
+    {
+      "q": "Qaysi kalit so'zlar o'zgaruvchi e'lon qiladi?",
+      "o": [
+        "var, let, const",
+        "int, float, string",
+        "dim, set, def",
+        "new, make, create"
+      ],
+      "a": 0
+    },
+    {
+      "q": "const bilan e'lon qilingan o'zgaruvchi haqida qaysi gap to'g'ri?",
+      "o": [
+        "Qiymati istalgancha o'zgaradi",
+        "Qayta tayinlab bo'lmaydi",
+        "E'lon qilinmaydi",
+        "Faqat raqam saqlaydi"
+      ],
+      "a": 1
+    },
+    {
+      "q": "let a = 5; a = 10; console.log(a) natijasi?",
+      "o": [
+        "5",
+        "undefined",
+        "10",
+        "Xato"
+      ],
+      "a": 2
+    },
+    {
+      "q": "const x = 1; x = 2; nima beradi?",
+      "o": [
+        "x = 2",
+        "TypeError",
+        "undefined",
+        "Hech narsa"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Qaysi o'zgaruvchi nomi to'g'ri?",
+      "o": [
+        "1name",
+        "my-name",
+        "let",
+        "_name"
+      ],
+      "a": 3
+    },
+    {
+      "q": "JavaScript'da o'zgaruvchi nomlash uchun odatda qaysi uslub ishlatiladi?",
+      "o": [
+        "camelCase",
+        "UPPER-CASE",
+        "kebab-case",
+        "Sarlavha Case"
+      ],
+      "a": 0
+    },
+    {
+      "q": "let x; console.log(x) natijasi?",
+      "o": [
+        "null",
+        "0",
+        "undefined",
+        "Xato"
+      ],
+      "a": 2
+    },
+    {
+      "q": "let a = 1, b = 2; console.log(a + b) natijasi?",
+      "o": [
+        "12",
+        "3",
+        "'3'",
+        "NaN"
+      ],
+      "a": 1
+    },
+    {
+      "q": "var qaysi qamrovga (scope) ega?",
+      "o": [
+        "Blok",
+        "Funksiya",
+        "Faqat global emas",
+        "Qamrovga ega emas"
+      ],
+      "a": 1
+    },
+    {
+      "q": "let qaysi qamrovga ega?",
+      "o": [
+        "Blok (block scope)",
+        "Faqat global",
+        "Faqat funksiya",
+        "Qamrovga ega emas"
+      ],
+      "a": 0
+    },
+    {
+      "q": "E'lon qilinmagan o'zgaruvchi ishlatilsa qanday xato chiqadi?",
+      "o": [
+        "SyntaxError",
+        "ReferenceError",
+        "RangeError",
+        "URIError"
+      ],
+      "a": 1
+    },
+    {
+      "q": "let x = 5; x += 3; x qiymati?",
+      "o": [
+        "53",
+        "5",
+        "8",
+        "3"
+      ],
+      "a": 2
+    },
+    {
+      "q": "let x = 5; x++; x qiymati?",
+      "o": [
+        "5",
+        "7",
+        "4",
+        "6"
+      ],
+      "a": 3
+    },
+    {
+      "q": "Bir blokda ikki marta let a = 1; let a = 2; yozilsa nima bo'ladi?",
+      "o": [
+        "SyntaxError",
+        "a = 2 bo'ladi",
+        "a = 1 qoladi",
+        "undefined"
+      ],
+      "a": 0
+    },
+    {
+      "q": "const arr = [1,2]; arr.push(3); ishlaydimi?",
+      "o": [
+        "Yo'q, xato beradi",
+        "Ha, massiv ichini o'zgartirish mumkin",
+        "Faqat let bilan",
+        "Faqat var bilan"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Hoisting nima?",
+      "o": [
+        "Xatoni tuzatish",
+        "Kodni siqish",
+        "E'lonlarning qamrov tepasiga ko'tarilishi",
+        "Faylni yuklash"
+      ],
+      "a": 2
+    },
+    {
+      "q": "let a = 1; let b = a; b = 2; console.log(a) natijasi?",
+      "o": [
+        "2",
+        "1",
+        "undefined",
+        "Xato"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Qaysi e'lon xato?",
+      "o": [
+        "let a = 5;",
+        "const b = 3;",
+        "var c = 1;",
+        "let 2x = 5;"
+      ],
+      "a": 3
+    },
+    {
+      "q": "let name = 'Ali'; console.log(`Salom ${name}`) natijasi?",
+      "o": [
+        "Salom Ali",
+        "Salom ${name}",
+        "Salom name",
+        "Xato"
+      ],
+      "a": 0
+    },
+    {
+      "q": "let a = 5, b = 10; [a, b] = [b, a]; console.log(a) natijasi?",
+      "o": [
+        "5",
+        "15",
+        "10",
+        "undefined"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Qaysi biri primitiv tur emas?",
+      "o": [
+        "string",
+        "number",
+        "object",
+        "boolean"
+      ],
+      "a": 2
+    },
+    {
+      "q": "typeof 'salom' natijasi?",
+      "o": [
+        "'text'",
+        "'char'",
+        "'word'",
+        "'string'"
+      ],
+      "a": 3
+    },
+    {
+      "q": "typeof 42 natijasi?",
+      "o": [
+        "'number'",
+        "'int'",
+        "'integer'",
+        "'digit'"
+      ],
+      "a": 0
+    },
+    {
+      "q": "typeof true natijasi?",
+      "o": [
+        "'bool'",
+        "'boolean'",
+        "'logic'",
+        "'binary'"
+      ],
+      "a": 1
+    },
+    {
+      "q": "typeof undefined natijasi?",
+      "o": [
+        "'null'",
+        "'object'",
+        "'undefined'",
+        "'void'"
+      ],
+      "a": 2
+    },
+    {
+      "q": "typeof null natijasi (JavaScript'ning mashhur xususiyati)?",
+      "o": [
+        "'null'",
+        "'undefined'",
+        "'number'",
+        "'object'"
+      ],
+      "a": 3
+    },
+    {
+      "q": "typeof [] natijasi?",
+      "o": [
+        "'object'",
+        "'array'",
+        "'list'",
+        "'massiv'"
+      ],
+      "a": 0
+    },
+    {
+      "q": "typeof function(){} natijasi?",
+      "o": [
+        "'object'",
+        "'method'",
+        "'function'",
+        "'code'"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Number('5') natijasi?",
+      "o": [
+        "'5'",
+        "5",
+        "NaN",
+        "Xato"
+      ],
+      "a": 1
+    },
+    {
+      "q": "String(123) natijasi?",
+      "o": [
+        "123",
+        "NaN",
+        "'123'",
+        "Xato"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Number('abc') natijasi?",
+      "o": [
+        "0",
+        "undefined",
+        "null",
+        "NaN"
+      ],
+      "a": 3
+    },
+    {
+      "q": "NaN nimani anglatadi?",
+      "o": [
+        "Not a Number",
+        "New and Null",
+        "No annual Number",
+        "Null and None"
+      ],
+      "a": 0
+    },
+    {
+      "q": "BigInt qiymati qanday yoziladi?",
+      "o": [
+        "10b",
+        "10n",
+        "BigInt:10",
+        "10L"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Boolean(0) natijasi?",
+      "o": [
+        "true",
+        "0",
+        "false",
+        "undefined"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Boolean('0') natijasi (bo'sh bo'lmagan satr)?",
+      "o": [
+        "false",
+        "true",
+        "0",
+        "NaN"
+      ],
+      "a": 1
+    },
+    {
+      "q": "parseInt('42px') natijasi?",
+      "o": [
+        "42",
+        "NaN",
+        "'42'",
+        "Xato"
+      ],
+      "a": 0
+    },
+    {
+      "q": "parseFloat('3.14abc') natijasi?",
+      "o": [
+        "NaN",
+        "3",
+        "3.14",
+        "'3.14'"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Qiymat ataylab bo'sh ekanini bildirish uchun nima ishlatiladi?",
+      "o": [
+        "undefined",
+        "NaN",
+        "void",
+        "null"
+      ],
+      "a": 3
+    },
+    {
+      "q": "'5' - 2 natijasi?",
+      "o": [
+        "3",
+        "'52'",
+        "NaN",
+        "'3'"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Qaysi biri JavaScript'ning ma'lumot turi hisoblanadi?",
+      "o": [
+        "char",
+        "Symbol",
+        "double",
+        "float"
+      ],
+      "a": 1
+    },
+    {
+      "q": "10 % 3 natijasi?",
+      "o": [
+        "3",
+        "0",
+        "1",
+        "3.33"
+      ],
+      "a": 2
+    },
+    {
+      "q": "2 ** 3 natijasi?",
+      "o": [
+        "6",
+        "9",
+        "5",
+        "8"
+      ],
+      "a": 3
+    },
+    {
+      "q": "7 / 2 natijasi?",
+      "o": [
+        "3.5",
+        "3",
+        "4",
+        "Xato"
+      ],
+      "a": 0
+    },
+    {
+      "q": "let a = 5; console.log(a++) natijasi?",
+      "o": [
+        "6",
+        "5",
+        "4",
+        "Xato"
+      ],
+      "a": 1
+    },
+    {
+      "q": "let a = 5; console.log(++a) natijasi?",
+      "o": [
+        "5",
+        "7",
+        "6",
+        "Xato"
+      ],
+      "a": 2
+    },
+    {
+      "q": "let x = 10; x -= 4; x qiymati?",
+      "o": [
+        "14",
+        "10",
+        "4",
+        "6"
+      ],
+      "a": 3
+    },
+    {
+      "q": "'Salom' + ' ' + 'Dunyo' natijasi?",
+      "o": [
+        "Salom Dunyo",
+        "SalomDunyo",
+        "Salom+Dunyo",
+        "Xato"
+      ],
+      "a": 0
+    },
+    {
+      "q": "5 + '5' natijasi?",
+      "o": [
+        "10",
+        "'55'",
+        "55 (raqam)",
+        "NaN"
+      ],
+      "a": 1
+    },
+    {
+      "q": "'10' * 2 natijasi?",
+      "o": [
+        "'102'",
+        "1010",
+        "20",
+        "NaN"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Son juft ekanini tekshirish uchun qaysi ifoda ishlatiladi?",
+      "o": [
+        "n / 2 === 0",
+        "n * 2 === 0",
+        "n ** 2 === 0",
+        "n % 2 === 0"
+      ],
+      "a": 3
+    },
+    {
+      "q": "15 % 4 natijasi?",
+      "o": [
+        "3",
+        "4",
+        "1",
+        "0"
+      ],
+      "a": 0
+    },
+    {
+      "q": "5 > 3 ? 'ha' : 'yoq' natijasi?",
+      "o": [
+        "'yoq'",
+        "'ha'",
+        "true",
+        "false"
+      ],
+      "a": 1
+    },
+    {
+      "q": "typeof operatori nima qaytaradi?",
+      "o": [
+        "Qiymatni",
+        "Uzunlikni",
+        "Tur nomini (satr sifatida)",
+        "Xotira manzilini"
+      ],
+      "a": 2
+    },
+    {
+      "q": "2 + 3 * 4 natijasi?",
+      "o": [
+        "20",
+        "24",
+        "10",
+        "14"
+      ],
+      "a": 3
+    },
+    {
+      "q": "(2 + 3) * 4 natijasi?",
+      "o": [
+        "20",
+        "14",
+        "24",
+        "12"
+      ],
+      "a": 0
+    },
+    {
+      "q": "let x = 3; x *= 2; x qiymati?",
+      "o": [
+        "5",
+        "6",
+        "9",
+        "32"
+      ],
+      "a": 1
+    },
+    {
+      "q": "let x = 2; x **= 3; x qiymati?",
+      "o": [
+        "6",
+        "5",
+        "8",
+        "9"
+      ],
+      "a": 2
+    },
+    {
+      "q": "1 / 0 natijasi?",
+      "o": [
+        "0",
+        "Xato",
+        "NaN",
+        "Infinity"
+      ],
+      "a": 3
+    },
+    {
+      "q": "'a' * 2 natijasi?",
+      "o": [
+        "NaN",
+        "'aa'",
+        "0",
+        "Xato"
+      ],
+      "a": 0
+    },
+    {
+      "q": "null ?? 'default' natijasi?",
+      "o": [
+        "null",
+        "'default'",
+        "undefined",
+        "false"
+      ],
+      "a": 1
+    },
+    {
+      "q": "5 == '5' natijasi?",
+      "o": [
+        "false",
+        "Xato",
+        "true",
+        "undefined"
+      ],
+      "a": 2
+    },
+    {
+      "q": "5 === '5' natijasi?",
+      "o": [
+        "true",
+        "Xato",
+        "NaN",
+        "false"
+      ],
+      "a": 3
+    },
+    {
+      "q": "5 != '5' natijasi?",
+      "o": [
+        "false",
+        "true",
+        "Xato",
+        "undefined"
+      ],
+      "a": 0
+    },
+    {
+      "q": "5 !== '5' natijasi?",
+      "o": [
+        "false",
+        "true",
+        "Xato",
+        "NaN"
+      ],
+      "a": 1
+    },
+    {
+      "q": "true && false natijasi?",
+      "o": [
+        "true",
+        "undefined",
+        "false",
+        "Xato"
+      ],
+      "a": 2
+    },
+    {
+      "q": "true || false natijasi?",
+      "o": [
+        "false",
+        "Xato",
+        "null",
+        "true"
+      ],
+      "a": 3
+    },
+    {
+      "q": "!true natijasi?",
+      "o": [
+        "false",
+        "true",
+        "null",
+        "undefined"
+      ],
+      "a": 0
+    },
+    {
+      "q": "null == undefined natijasi?",
+      "o": [
+        "false",
+        "true",
+        "Xato",
+        "NaN"
+      ],
+      "a": 1
+    },
+    {
+      "q": "null === undefined natijasi?",
+      "o": [
+        "true",
+        "Xato",
+        "false",
+        "null"
+      ],
+      "a": 2
+    },
+    {
+      "q": "NaN === NaN natijasi?",
+      "o": [
+        "true",
+        "Xato",
+        "undefined",
+        "false"
+      ],
+      "a": 3
+    },
+    {
+      "q": "3 >= 3 natijasi?",
+      "o": [
+        "true",
+        "false",
+        "Xato",
+        "undefined"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Quyidagilardan qaysi biri truthy (true deb hisoblanadi)?",
+      "o": [
+        "0",
+        "''",
+        "null",
+        "[]"
+      ],
+      "a": 3
+    },
+    {
+      "q": "!!'salom' natijasi?",
+      "o": [
+        "'salom'",
+        "true",
+        "false",
+        "Xato"
+      ],
+      "a": 1
+    },
+    {
+      "q": "0 || 'a' natijasi?",
+      "o": [
+        "0",
+        "false",
+        "'a'",
+        "null"
+      ],
+      "a": 2
+    },
+    {
+      "q": "1 && 'b' natijasi?",
+      "o": [
+        "1",
+        "true",
+        "false",
+        "'b'"
+      ],
+      "a": 3
+    },
+    {
+      "q": "'a' < 'b' natijasi?",
+      "o": [
+        "true",
+        "false",
+        "Xato",
+        "NaN"
+      ],
+      "a": 0
+    },
+    {
+      "q": "'10' < '9' natijasi (satrlar taqqoslanadi)?",
+      "o": [
+        "false",
+        "true",
+        "Xato",
+        "NaN"
+      ],
+      "a": 1
+    },
+    {
+      "q": "10 < 9 natijasi?",
+      "o": [
+        "true",
+        "Xato",
+        "false",
+        "NaN"
+      ],
+      "a": 2
+    },
+    {
+      "q": "!(5 > 3) natijasi?",
+      "o": [
+        "true",
+        "Xato",
+        "undefined",
+        "false"
+      ],
+      "a": 3
+    },
+    {
+      "q": "false == 0 natijasi?",
+      "o": [
+        "true",
+        "false",
+        "Xato",
+        "NaN"
+      ],
+      "a": 0
+    }
+  ]
+}
